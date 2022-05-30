@@ -1,0 +1,294 @@
+
+/* PAGE 1 HOME PAGE##############################################*/
+
+#homebackround{
+    background-image: url(contact_backround.jpg);
+}
+#navbar{
+    display: flex;
+    justify-content: flex-start;
+        justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35px;
+    position: sticky;
+    top: 0px;
+}
+#navbartext{
+    color: white;
+}
+
+
+#navbartext:hover{
+    text-decoration: underline;
+    color: cyan;
+}
+
+#Title{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  rgb(12, 12, 12);
+    border: 5px solid rgb(0, 0, 0);
+    text-decoration: underline black;
+    
+}
+#page1subheading {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+
+#products1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    border: 5px solid black;
+    height: 400px;
+
+}
+ 
+#products1 a{
+    color: white;
+    margin-right: 30px;
+
+}
+
+#products1 a:hover{
+    color: cyan;
+
+}
+#spinnerimage1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+background-image: url("Spinner_1.webp");
+width: 400px;
+background-size: 100% 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#spinnerimage2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+background-image: url("Spinner_2.webp");
+width: 400px;
+background-size: 100% 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#spinnerimage3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+background-image: url("Spinner_3.jpg");
+width: 400px;
+background-size: 100% 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.toy1-3{
+    background-color: rgb(0, 0, 0);
+    text-align:  center;
+    border: 10px solid black;
+    margin-right: 35px;
+}
+
+.image1{
+    margin-bottom: 50px;
+
+}
+
+#products2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    border: 5px solid black;
+    height: 400px;
+}
+
+#products2 a{
+    color: white;
+    margin-right: 30px;
+
+}
+
+#products2 a:hover{
+    color: cyan;
+}
+
+#spinnerimage4{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+background-image: url("Spinner_4.jpg");
+width: 400px;
+background-size: 100% 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#spinnerimage5{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+background-image: url("Spinner_5.webp");
+width: 400px;
+background-size: 100% 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#spinnerimage6{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+background-image: url("Spinner_6.jpg");
+width: 400px;
+background-size: 100% 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.image2 {
+    margin-bottom: 50px;
+}
+
+.toy4-6{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border: 10px solid black;
+    margin-right: 35px;
+}
+
+
+
+
+
+
+/* PAGE 2   ABOUT US############################################## */
+
+#aboutbackround{
+    background-image: url(about_backround.jpg)
+}
+#navbar2{
+    display: flex;
+    justify-content: flex-start;
+        justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35px;
+}
+#navbartext2{
+    color: white;
+}
+
+
+#navbartext2:hover{
+    color: cyan;
+}
+
+#Title2{
+    text-decoration: underline white;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aboutimage{
+    text-align: center;
+}
+#aboutimage1{
+    border: 8px solid white;
+}
+
+#centeraboutparagraph{
+    display: flex;
+    justify-content: center;
+}
+
+#aboutparagraph{
+    box-sizing: border-box;
+    width: 50%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+/* PAGE 3  ABOUT US############################################### */
+
+#contactbackround{
+    background-image: url(contact_backround.jpg);
+}
+
+#navbar3{
+    display: flex;
+    justify-content: flex-start;
+        justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35px;
+}
+
+#navbartext3{
+    color: white;
+}
+
+
+#navbartext3:hover{
+    color: cyan;
+}
+
+#Title3{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline rgb(255, 253, 253);
+}
+
+#contactimage{
+    display: flex;
+    justify-content: center;
+}
+
+#contactborder{
+    border: 10px solid white;
+}
+
+#centercontactparagraph{
+    display: flex;
+    justify-content: center;
+}
+
+#Contactparagraph{
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 5px solid white;
+}
